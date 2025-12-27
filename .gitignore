@@ -1,0 +1,18 @@
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Maven
+**/target/
+*.class
+*.war
+*.log
+
+# Node / temp
+node_modules/
+
+# Secrets
+*.pem
+*.key
+.env
+
