@@ -1,5 +1,9 @@
 # 🚀 VProfile Lift & Shift Architecture on AWS
 
+
+## 🏗️ Architecture Diagram
+![VProfile AWS Architecture](images/arch.webp)
+
 This project demonstrates a **production-style Lift & Shift deployment** of the **VProfile Java application** on AWS using **EC2, ALB, Auto Scaling, Route 53 (Private DNS), S3, IAM, and Maven**.
 
 The goal is to deploy a **scalable, secure, and highly available application architecture** using AWS best practices.
