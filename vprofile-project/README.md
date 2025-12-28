@@ -87,6 +87,16 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 
 
 
+### 4 EC2 instances for backend and app server.
+
+| Instance | Purpose        | OS           |
+| -------- | -------------- | ------------ |
+| db01     | MySQL Database | Amazon Linux |
+| mc01     | Memcached      | Amazon Linux |
+| rmq01    | RabbitMQ       | Amazon Linux |
+| app01    | Tomcat         | Ubuntu Linux | 
+
+
 ## 🌐 Internal DNS (Private Service Discovery)
 
 To avoid dependency on changing private IPs, **Route 53 Private Hosted Zone** is used.
@@ -100,6 +110,7 @@ To avoid dependency on changing private IPs, **Route 53 Private Hosted Zone** is
 - Used only for **internal VPC communication**
 
 ---
+
 
 ## 📦 Artifact Management (Maven + S3)
 
