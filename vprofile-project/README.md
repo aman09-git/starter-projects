@@ -75,6 +75,17 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 > 
 
 ---
+### 4 EC2 instances for backend and app server.
+
+| Instance | Purpose        | OS           |
+| -------- | -------------- | ------------ |
+| db01     | MySQL Database | Amazon Linux |
+| mc01     | Memcached      | Amazon Linux |
+| rmq01    | RabbitMQ       | Amazon Linux |
+| app01    | Tomcat         | Ubuntu Linux | 
+
+
+
 
 ## 🌐 Internal DNS (Private Service Discovery)
 
